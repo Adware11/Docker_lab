@@ -1,0 +1,6 @@
+FROM rabbitmq
+LABEL "Author"="AVL"
+LABEL "Project"="VProfile"
+EXPOSE 5672
+ENV RABBITMQ_DEFAULT_USER test
+ENV RABBITMQ_DEFAULT_PASS test
